@@ -2,7 +2,7 @@ import "./App.css";
 import logo from "./water-color-flowers.png";
 import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -13,11 +13,9 @@ function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Mira Pocos</small>
+          <small>Coded by SheCodes</small>
         </footer>
       </div>
     </div>
   );
 }
-
-export default App;
