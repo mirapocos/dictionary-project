@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./water-color-flowers.png";
+import logo from "./flower_header.png";
 import Dictionary from "./Dictionary";
 
 export default function App() {
@@ -10,10 +10,10 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+          <small>Coded by Mira Pocos</small>
         </footer>
       </div>
     </div>
