@@ -13,7 +13,12 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Mira Pocos</small>
+          <small>
+            This project is coded by Mira Pocos and is open-sourced on{" "}
+            <a href="https://github.com/mirapocos/dictionary-project">GitHub</a>
+            , hosted on{" "}
+            <a href="https://cute-frangollo-ddc65e.netlify.app/">Netlify</a>
+          </small>
         </footer>
       </div>
     </div>
